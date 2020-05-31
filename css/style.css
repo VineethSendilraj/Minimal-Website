@@ -1,0 +1,219 @@
+body {
+
+    background: #F4F4F4;
+    margin:0;
+
+}
+
+.link-title {
+    
+    text-decoration: none;
+    font-size: 38px;
+    color:#444444;
+
+
+}
+
+.page-heading {
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+.container {
+    width:780px;
+    margin: 0 auto;
+    background: #EFEFEF;
+    box-shadow: 0px 9px 20px 3px;
+
+
+}
+
+.header {
+
+    padding: 45px 0 20px 40px;
+
+}
+
+.menu {
+    
+    background: #FF3B3F;
+    padding: 6px 0 6px 40px;
+
+
+}
+
+.menu a {
+
+    color: rgb(231, 231, 231);
+    text-decoration: none;
+    font-size: 17px;
+/* font-weight: bold; */
+    font-family: "Arial", "Myriad Pro";
+}
+
+.menu a:hover {
+
+    color:#ecf2f3;
+
+
+}
+
+aside {
+
+    float: left;
+    width: 80px;
+    padding: 30px 0 0 40px; 
+
+}
+
+h1 {
+
+    margin: 0px;
+    color:#444444;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+
+}
+
+h2 {
+
+    color:#3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+    
+}
+
+.main {
+
+    margin: 0 0 0 180px;
+    padding: 35px 40px 30px 0;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 14px; 
+    line-height: 18px;
+    text-emphasis: justify;
+    
+
+}
+
+.main a:hover {
+
+    color: #444444;
+
+}
+
+#home-image img {
+    
+    width: 100%;
+    border-radius: 25px 
+    
+
+}
+
+
+
+
+footer {
+
+    padding: 6px 40px 6px 40px;
+    background: #CAEBF2;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 11px;
+    text-decoration: right;
+    clear: both;
+    
+}
+
+footer a {
+    text-decoration: none;
+    color:#262626;
+    
+
+}
+
+.separator {
+    
+    color:#A9A9A9;
+    font-size: 11px;
+
+
+}
+
+
+/*     About Page Styles     */
+
+
+#about-page #home-image img {
+    
+    width: 40%;
+    float: left;
+    margin-bottom: 20px;
+
+}
+
+#about-page #profile-info {
+
+    float: right;
+    width: 50%;
+    margin: 20px;
+
+
+}
+
+#about-page .description {
+
+    clear: both;
+
+
+}
+
+
+/*     Contact Page     */
+
+#contact #form {
+    
+    width: 500px;
+    padding: 10px 10px 10px 10px;
+    margin: 0 auto;
+    box-shadow: 0px 9px 13px 5px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+#contact #form input {
+
+    width: 100%;
+    border-radius: 5px;
+    height: 20px;
+    background: #D6D6D6;
+
+}
+
+#contact #form #message {
+    width: 100%;
+    border-radius: 5px;
+    background: #D6D6D6;
+
+}
+
+#contact #form #submit {
+    height: 30px;
+    background: rgb(59, 118, 135);
+
+}
+hr {
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#CAEBF2;
+    border: 1px solid #CAEBF2;
+}
